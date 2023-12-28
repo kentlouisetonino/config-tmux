@@ -1,0 +1,15 @@
+## Description
+> - This repository includes the `Tmux` (Terminal Multiplexer) guides and config.
+
+<br />
+<br />
+
+
+
+### Commands
+
+```plaintext
+Ctrl-b + %              : Split vertically.
+Ctrl-b + Left Arrow     : Move to the left pane.
+Ctrl-b + Right Arrow    : Move to the right pane.
+```
