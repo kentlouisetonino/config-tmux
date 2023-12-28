@@ -33,6 +33,10 @@ tmux source <path-directory>/.tmux.conf
 
 
 ### Commands
+```bash
+# Kill the session exit the app. 
+tmux kill-server
+```
 
 ```plaintext
 Ctrl-b + %              : Split vertically.
