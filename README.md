@@ -7,31 +7,25 @@
 
 
 ### Configuration Setup
+> - Clone this repository.
 
 ```bash
-# Go to the root directory.
-cd ~
-
-# Create a config file.
-touch .tmux.conf
+git clone git@github.com:kentlouisetonino/config-tmux.git
 ```
 
-> - Inside the `.tmux.conf` file insert the bindings.
+> - Get the path of this directory.
 
 ```bash
-# New panes in current directory.
-bind c new-window -c "#{pane_current_path}"
-bind '"' split-window -c "#{pane_current_path}"
-bind % split-window -h -c "#{pane_current_path}"
+pwd
 ```
 
-> - Save the file and load the the configuration file.
+> - Load the tmux config and execute the configuration file.
 
 ```bash
-tmux source ~/.tmux.conf
+tmux source <directory-path>/.tmux.conf
 ```
 
-> - Restart the terminal
+> - Restart the terminal.
 
 <br />
 <br />
