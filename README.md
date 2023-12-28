@@ -22,7 +22,7 @@ pwd
 > - Load the tmux config and execute the configuration file.
 
 ```bash
-tmux source <directory-path>/.tmux.conf
+tmux source <path-directory>/.tmux.conf
 ```
 
 > - Restart the terminal.
