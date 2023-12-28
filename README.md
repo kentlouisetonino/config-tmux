@@ -13,16 +13,20 @@
 git clone git@github.com:kentlouisetonino/config-tmux.git
 ```
 
-> - Get the path of this directory.
+> - Copy the tmux config to the `~` directory.
 
 ```bash
-pwd
+# Go first to the cloned directory.
+cd config-tmux
+
+# Copy the file in home directory.
+cp .tmux.conf ~/.tmux.conf
 ```
 
 > - Load the tmux config and execute the configuration file.
 
 ```bash
-tmux source <path-directory>/.tmux.conf
+tmux source ~/.tmux.conf
 ```
 
 > - Restart the terminal.
