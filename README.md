@@ -1,3 +1,3 @@
 ## Description
-> - This repository is Tmux (Terminal Multiplexer) guides.
+> - This repository is for `Tmux` (Terminal Multiplexer) guides.
 
