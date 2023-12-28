@@ -38,7 +38,7 @@ tmux source ~/.tmux.conf
 
 ### Commands
 ```bash
-# Kill the session exit the app. 
+# Kill all the session and exit the app. 
 tmux kill-server
 ```
 
