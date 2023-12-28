@@ -18,7 +18,7 @@ touch .tmux.conf
 
 > - Inside the `.tmux.conf` file insert the bindings.
 
-```vim
+```bash
 # New panes in current directory.
 bind c new-window -c "#{pane_current_path}"
 bind '"' split-window -c "#{pane_current_path}"
