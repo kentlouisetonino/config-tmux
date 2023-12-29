@@ -47,6 +47,8 @@ Ctrl-b + %              : Split pane vertically.
 Ctrl-b + "              : Split pane horizontally.
 Ctrl-b + Left Arrow     : Move to the left pane.
 Ctrl-b + Right Arrow    : Move to the right pane.
+Ctrl-b + Up Arrow       : Move to the top pane.
+Ctrl-b + Down Arrow     : Move to the down pane.
 Ctrl-b + ;              : Switch to last active pane.
 Ctrl-b + o              : Switch to next pane. This will switch the arrangement of pane.
 ```
